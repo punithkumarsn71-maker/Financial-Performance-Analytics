@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project focuses on analyzing a company's financial performance using SQL, Excel, and Power BI. The dashboard provides an interactive view of sales, profit, orders, product performance, and regional trends to help users understand business performance and make better decisions.
+This project is a Financial Performance Analytics Dashboard built using Power BI, SQL, and Python. The goal was to analyze sales data and create an interactive dashboard that helps understand business performance across different regions, products, categories, and salespersons.
 
-The report is designed with a clean executive-style layout and includes interactive filters for exploring the data.
+The dashboard provides a clear view of important business metrics such as total sales, profit, profit margin, total orders, and average order value. It also includes interactive filters that allow users to explore the data from different perspectives.
 
 
 
@@ -12,142 +12,82 @@ The report is designed with a clean executive-style layout and includes interact
 
 - Power BI
 - SQL
+- Python
 - Microsoft Excel
-- Power Query
-- DAX
-
-
-
-## Dataset
-
-The dataset contains approximately 1,000 sales records with information such as:
-
-- Order ID
-- Order Date
-- Customer Name
-- Product
-- Category
-- Region
-- Salesperson
-- Quantity
-- Unit Price
-- Discount
-- Cost
-- Sales
-- Profit
 
 
 
 ## Dashboard Pages
 
-### 1. Executive Dashboard
+### Executive Dashboard
 
-This page provides a high-level overview of the company's financial performance.
+This page provides a quick summary of overall business performance using KPI cards, sales trends, regional analysis, category-wise sales, product performance, and top salespersons.
 
-KPIs Included:
+### Sales Analysis
+
+This page focuses on detailed sales insights with monthly trends, product performance, salesperson analysis, profit comparison, and a detailed transaction table for deeper analysis.
+
+
+
+## Key Metrics
+
 - Total Sales
 - Total Profit
 - Profit Margin
 - Total Orders
 - Average Order Value
 
-Visuals:
-- Monthly Sales Trend
-- Sales by Region
-- Sales by Category
-- Profit by Category
-- Top 10 Salespersons
-- Top Products by Sales
-
-Interactive Filters:
-- Year
-- Region
-- Category
-- Salesperson
 
 
+## Features
 
-### 2. Sales Analysis Dashboard
-
-This page focuses on detailed sales analysis.
-
-Visuals:
-- Monthly Sales Trend
-- Monthly Profit Trend
-- Sales by Product
-- Profit by Product
-- Top 10 Salespersons
-- Sales vs Profit Comparison
-
-A detailed transaction table is included to view individual sales records with filters applied.
-
-
-
-## SQL Concepts Used
-
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
-- Aggregate Functions
-- INNER JOIN
-- HAVING
-- Subqueries
-- Window Functions
-
-
-
-## DAX Measures
-
-Some of the measures created in this project include:
-
-- Total Sales
-- Total Profit
-- Total Orders
-- Total Quantity
-- Average Order Value
-- Profit Margin %
-- Average Selling Price
-- Product Rank
-- Salesperson Rank
-
-
-
-## Key Insights
-
-- Electronics generated the highest sales.
-- A small group of salespersons contributed a significant portion of total revenue.
-- Profit margin remained healthy throughout the year.
-- Sales performance varied across different regions.
-- Product performance helped identify the best-selling products.
+- Interactive slicers
+- Dynamic KPI cards
+- Monthly sales and profit trends
+- Regional sales analysis
+- Product performance analysis
+- Salesperson performance analysis
+- Category-wise sales analysis
+- Detailed sales records table
 
 
 
 ## Project Structure
 
+Financial-Performance-Analytics/
 
-Financial-Performance-Analytics
-│
-├── Dataset
-├── Documentation
-├── Excel
-├── Images
-├── PowerBI
-├── Python
-├── Reports
-├── SQL
+├── Dataset/
+
+├── Documentation/
+
+├── Excel/
+
+├── Images/
+
+├── PowerBI/
+
+├── Python/
+
+├── Reports/
+
+├── SQL/
+
 └── README.md
 
 
 
 ## Dashboard Preview
 
-Dashboard screenshots are available in the **Images** folder.
+### Executive Dashboard
+
+![Executive Dashboard](Images/Executive_Dashboard.png)
+
+### Sales Analysis Dashboard
+
+![Sales Analysis Dashboard](Images/Sales_Analysis_Dashboard.png)
 
 
 
-## Author
+## What I Learned
 
-**Punith Kumar**
-
-Aspiring Data Analyst passionate about SQL, Power BI, Excel, and Python.
+While working on this project, I improved my skills in Power BI dashboard design, SQL queries, data cleaning using Python, and creating interactive reports. I also learned how to organize a complete analytics project for GitHub and portfolio purposes.
